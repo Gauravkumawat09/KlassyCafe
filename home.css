@@ -1,0 +1,188 @@
+.navbars {
+    /* height: 13vh;
+    width: 100%;
+    border: 2px solid black; */
+    display: flex;
+    justify-content: space-between;
+    top: 0px;
+    position: sticky;
+    z-index: 2;
+    background-color: #fff;
+    align-items: center;
+    padding: 10px 0px;
+    box-shadow: -1px -14px 48px 8px rgba(137,128,128,0.65);
+    -webkit-box-shadow: -1px -14px 48px 8px rgba(137,128,128,0.65);
+    -moz-box-shadow: -1px -14px 48px 8px rgba(137,128,128,0.65);
+}
+
+.navbars ul {
+    text-align: center;
+    word-spacing: 15px;
+    justify-content: center;
+    
+}
+
+.navbars ul li {
+    display: inline;
+    padding: 0px 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+
+}
+.logotext{
+    font-family: "Dancing Script", cursive;
+    font-weight: bolder;
+    color: white;
+}
+.navbars ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.navbars ul li a:hover {
+    color: rgb(251, 88, 73);
+    cursor: pointer;
+}
+
+.slider .box2 {
+    /* height: 100vh;
+    width: 100%;
+    border: 2px solid black; */
+    float: right;
+}
+
+.slider .box1 {
+    text-align: center;
+    background-color: rgb(251, 88, 73);
+    /* height: 100vh; */
+    background-repeat: no-repeat;
+    width: 30%;
+    align-items: center;
+    padding-bottom: 261px;
+}
+
+.row {
+    height: 100vh;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+}
+
+.row .col-6 {
+    height: 100vh;
+    width: 50%;
+    /* border: 2px solid black; */
+}
+
+.menu {
+
+    /* border: 2px solid black; */
+    background-color: #f5f5f5;
+
+}
+
+.chef {
+    text-align: center;
+    /* display: flex; */
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.cards .card {
+    border: 1px solid black;
+    padding: 3px;
+    text-align: center;
+    /* font-family: Poppins, sans-serif; */
+}
+
+.contact {
+    /* height: 100vh; */
+    /* width: 100%; */
+    border: 2px solid black;
+    background-image: url(https://images.squarespace-cdn.com/content/v1/63fc3e653027395e5ac9e40d/e1c6f4fd-247a-4fbc-a0dd-349758a50775/burgerswithbite-160223-1.jpg);
+    background-size: 500vh;
+    background-repeat: no-repeat;
+    display: flex;
+    /* padding-right: 30px; */
+
+}
+
+.contact .col-6 {
+    padding-left: 100px;
+    padding-top: 100px;
+    color: white;
+    width: 50%;
+}
+
+.week {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.week img {
+    padding: 0 20px;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 70px;
+    column-gap: 70px;
+    padding: 0px 100px;
+}
+
+.grid-item {
+    display: flex;
+    height: 100px;
+    align-items: center;
+    gap: 5px;
+}
+
+.grid-item img {
+    height: 100px;
+    border-radius: 5px;
+}
+
+.price {
+    height: 80px;
+    width: 80px;
+    background-color: rgb(251, 88, 73);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.price span{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.content h1 {
+    font-size: 20px;
+    font-weight: 700;
+}
+.content p { 
+    line-height: 16px;
+}
+.end{
+    /* height: 150px;
+    width: 100%; */
+    background-color: rgb(251, 88, 73);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 0px;
+}
+.end .logolink{
+    height: 70px;
+    width: 33%;
+    /* border: 2px solid black; */
+    text-align: center;
+    color: white;
+
+}
