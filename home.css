@@ -15,6 +15,7 @@
     -moz-box-shadow: -1px -14px 48px 8px rgba(137,128,128,0.65);
 }
 
+
 .navbars ul {
     text-align: center;
     word-spacing: 15px;
@@ -157,6 +158,9 @@
     justify-content: center;
     align-items: center;
 }
+
+/* alsdcKADJBc */
+
 .price span{
     color: white;
     font-size: 20px;
